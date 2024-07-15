@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+}
+/* ####################################################### */
+/* index content */
+.welcome{
+  background-color:var(--brand-white);
+}
+.welcome h1{
+  font-family:'montserrat' sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+}
+.welcome-subtitle{
+  background-color: var(--brand-dark);
+  width:50%;
+  margin: auto;
+}
+.welcome h4{
+  color:white;
+  font-family:'roboto slab';
+  font-size: 20px;
+  padding:9px;
+}
+/* ####################################################### */
+.dimansion-heading{
+    color: var( --brand-orange);
+}
+.more-btn{
+  padding:6px;
+  background-color: var(--brand-orange);
+  border:none;
+  font-style:'montserrat' sans-serif;
+  font-weight: 600;
+  }
+.more-btn:hover{
+  background-color:white;
+  border-radius: 15px;
+  transition:0.5s ease-in-out;
+}
+
+/* ####################################### */
+/* General Styling for the section */
+.details .container {
+  padding: 20px;
+}
+
+.details .heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.details h1 {
+  font-size: 2em;
+}
+
+.details .content-block {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.details .content-block:hover {
+  transform: scale(1.05);
+}
+
+.details figure {
+  margin: 0;
+  position: relative;
+}
+
+.details img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  transition: opacity 0.3s ease;
+}
+
+.details figcaption {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 0.3s ease;
+  opacity: 0;
+}
+
+.details .content-block:hover img {
+  opacity: 0.7;
+}
+
+.details .content-block:hover figcaption {
+  top: 0;
+  opacity: 1;
+}
+
+.details h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.details span {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Additional styling */
+.details figcaption h4 {
+  color: #24c5cc;
+  font-weight: 600;
+}
+
+.details figcaption h4:hover {
+  color: #000;
+}
